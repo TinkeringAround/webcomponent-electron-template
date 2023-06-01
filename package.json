@@ -1,0 +1,30 @@
+{
+  "name": "webcomponent-electron-template",
+  "productName": "webcomponent-electron-template",
+  "version": "0.0.1",
+  "description": "Template for a Webcomponent based Electron Project with Event Driven Store",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "dev": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Thomas Maier"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "6.1.1",
+    "@electron-forge/maker-deb": "6.1.1",
+    "@electron-forge/maker-rpm": "6.1.1",
+    "@electron-forge/maker-squirrel": "6.1.1",
+    "@electron-forge/maker-zip": "6.1.1",
+    "@electron-forge/plugin-vite": "6.1.1",
+    "electron": "25.0.1"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "1.0.0"
+  }
+}
